@@ -1,0 +1,13 @@
+Installations:
+
+npm init -y
+npm i express mysql2 morgan
+npm i nodemon -D
+
+in package.json:
+
+"type": "module",
+
+"scripts": {
+    "dev": "nodemon server/index.js"
+},
